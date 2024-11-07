@@ -5,7 +5,7 @@
   },
   "private": true,
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://wsb777.github.io/mindbox-test",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -15,7 +15,8 @@
     "preview": "vite preview",
     "cypress": "cypress open",
     "test-cy": "cypress run",
-    "test": "jest --env=jsdom"
+    "test": "jest --env=jsdom",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "^2.1.1",
