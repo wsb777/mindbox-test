@@ -1,0 +1,21 @@
+.label {
+    display: flex;
+}
+
+.input {
+    display: none;
+}
+
+.svg {
+    border: 1px solid black;
+    fill: black;
+    border-radius: 50%;
+}
+
+.svg.active {
+    border-color: green;
+}
+
+.svg.active path {
+    fill: green;
+}

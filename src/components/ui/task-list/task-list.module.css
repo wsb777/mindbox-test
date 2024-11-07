@@ -1,0 +1,56 @@
+.list {
+    max-height: 0px;
+    transition: 0.5s ease max-height;
+    overflow: hidden;
+}
+
+.list.active {
+    max-height: 600px;
+}
+
+.element {
+    display: flex;
+    color: #505050;
+    font-size: 20px;
+    padding: 10px 20px;
+    gap: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.menu {
+    display: flex;
+    color: #9e9e9e;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.menu button {
+    cursor: pointer;
+    color: #9e9e9e;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.menu button:active {
+    border: 1px solid #9e9e9e;
+    outline: none;
+    border-radius: 10%;
+}
+
+.content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.count {
+    padding: 5px;
+}
